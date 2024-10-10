@@ -1,23 +1,58 @@
 .DS_Store
-node_modules
-/dist
+# Node.js modules
+node_modules/
 
+# Build output
+dist/
+build/
 
-# local env files
+# Local env files
+.env
 .env.local
 .env.*.local
 
-# Log files
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
 
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Temporary files
+*.tmp
+*.temp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Testing files
+*.spec.js
+*.test.js
+tests/e2e/results
+
+# Dependency directory
+package-lock.json
+yarn.lock
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# vuepress
+.vuepress/dist/
+
+# Nuxt.js build
+.nuxt/
