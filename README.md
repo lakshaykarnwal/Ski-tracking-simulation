@@ -1,5 +1,7 @@
 # Michigan Ski Trail Tracker Simulator
 
+##Live Link: https://lakshaykarnwal.github.io/Ski-tracking-simulation/
+
 ## Overview
 The Michigan Ski Trail Tracker Simulator is an interactive web application that visualizes ski trails in Michigan using ArcGIS for JavaScript. It allows users to explore Michigan's ski trails, view detailed information about selected trails, and simulates movement along the longest trail.
 
